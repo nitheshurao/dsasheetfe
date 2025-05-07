@@ -4,7 +4,6 @@ import { Navigate } from "react-router-dom";
 const ProtectedRoute = ({ children }) => {
   const stored = JSON.parse(localStorage.getItem("dsaSheet"))
   const token = stored?.token;
-  const email = stored?.email;
   return token ? children : <Navigate to="/" />;
 };
 
