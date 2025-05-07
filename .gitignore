@@ -1,0 +1,61 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+build/
+dist/
+temp/
+tmp/
+
+# Coverage reports
+coverage/
+
+# IDE and editor junk
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# React-specific (CRA)
+*.env
+*.env.*.local
+*.tgz
+
+# Test and coverage folders
+coverage/
+__tests__/
+test-results.xml
+jest/
+
+# Misc
+*.swp
+*.bak
+*.orig
+*.patch
